@@ -33,11 +33,11 @@ class School
       
 
     
-#     def grade
-#     end 
+    def grade
+    end 
     
-#     def sort 
-#     end 
+    def sort 
+    end 
    
-# end
+end
 
