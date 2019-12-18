@@ -13,23 +13,23 @@
   
 # # end 
 
-# class School
-#   attr_accessor :roster, :student_name, :school_name, :grade 
+class School
+  attr_accessor :roster, :student_name, :school_name, :grade 
   
-#   def initialize(student_name)
-#     @student_name = student_name
-#     @roster = {}
-#   end
+  def initialize(student_name)
+    @student_name = student_name
+    @roster = {}
+  end
 
   
-#   def add_student(student_name, grade)
-#     if roster = [grade] == true 
-#       roster = [grade] << student_name
-#       else
-#       @roster[grade] = []
-#       @roster[grade] << student_name
-#     end
-#   end
+  def add_student(student_name, grade)
+    if roster = [grade] == true 
+      roster = [grade] << student_name
+      else
+      @roster[grade] = []
+      @roster[grade] << student_name
+    end
+  end
       
 
     
