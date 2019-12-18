@@ -1,15 +1,12 @@
 # code here!
 
 class School
-  hash = {} 
-  
-  def initialize(name)
-    @name = name 
+ 
+    def initialize(school_name)
+    @school_name = school_name
+    @roster = {}
   end
-  
-  def name 
-    @name
-  end 
+
   
   def add_student(name, grade)
   end 
