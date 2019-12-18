@@ -2,7 +2,9 @@
 
 class School
   
-  
+  def initialize(name)
+    @title = title
+  end
   
 end 
 
