@@ -14,7 +14,7 @@
 # end 
 
 class School
-  attr_accessor :roster, :name, :school, :grade 
+  attr_accessor :roster, :student_name, :school_name, :grade 
   
   def initialize(student_name)
     @student_name = student_name
