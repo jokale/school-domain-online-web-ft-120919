@@ -14,10 +14,10 @@
 # # end 
 
 class School
-  attr_accessor :roster, :student_name, :school_name, :grade 
+  attr_accessor :name 
   
-  def initialize(student_name)
-    @student_name = student_name
+  def initialize(name)
+    @name = name
     @roster = {}
   end
 
