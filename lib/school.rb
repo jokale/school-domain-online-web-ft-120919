@@ -1,10 +1,10 @@
 # code here!
 
 class School
-  NEW = {} 
+  hash = {} 
   
-  def initialize(school.roster)
-    @school.roster = school.roster
+  def initialize(name)
+    @name = name 
   end
   
   def name 
