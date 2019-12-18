@@ -23,6 +23,7 @@ class School
 
   
   def add_student(student_name, grade)
+    if roster = 
  end
     
     def grade
